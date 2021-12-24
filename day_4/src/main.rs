@@ -10,7 +10,7 @@ fn main() {
     println!(
         "{}",
         input
-            .split("\n\r")
+            .split("\r\n\r\n")
             .filter(|l| {
                 let mut parsed_fields: HashSet<_> = l
                     .split_whitespace()
